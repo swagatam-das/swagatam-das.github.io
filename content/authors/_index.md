@@ -4,8 +4,6 @@ title: Swagatam Das
 first_name: Swagatam
 last_name: Das
 
-superuser: true
-
 role: Professor
 
 organizations:
@@ -44,4 +42,6 @@ social:
   - icon: envelope
     icon_pack: fas
     link: mailto:swagatam.das@isical.ac.in
+---
+
 ---
