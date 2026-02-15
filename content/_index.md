@@ -11,7 +11,7 @@ design:
 sections:
   - block: resume-biography-3
     content:
-      username: admin
+      username: ''
       text: |
         **38,000+ Citations**  
         **450+ Publications**  
