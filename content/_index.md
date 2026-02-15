@@ -11,11 +11,14 @@ design:
 
 sections:
   - block: resume-biography-3
+      - block: resume-biography-3
     content:
-      # Choose a user profile to display (a folder name within `content/authors/`)
-      username: me
-      text: ''
-      # Show a call-to-action button under your biography? (optional)
+      username: admin
+      text: |
+        **38,000+ Citations**  
+        **450+ Publications**  
+        **H-index: 92 (Google Scholar)**
+
       button:
         text: Download CV
         url: uploads/resume.pdf
@@ -42,11 +45,15 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+  My research focuses on developing theoretically grounded algorithms in:
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+  - Deep Learning and Representation Learning  
+  - Evolutionary Computation and Swarm Intelligence  
+  - Non-convex Optimization  
+  - Statistical Learning Theory and Clustering  
 
-        Please reach out to collaborate 😃
+  I am particularly interested in bridging rigorous statistical analysis with scalable machine learning systems.
+
     design:
       columns: '1'
   - block: collection
@@ -108,8 +115,7 @@ sections:
       # Reduce spacing
       spacing:
         padding: [0, 0, 0, 0]
-  - block: cta-card
-    demo: true # Only display this section in the HugoBlox Kit demo site
+  
     content:
       title: 👉 Build your own academic website like this
       text: |-
